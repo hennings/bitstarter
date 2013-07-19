@@ -2,17 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Bitstarter</title>
     <link type="text/css" rel="stylesheet" 
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+	  href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+
     <style type="text/css">
+
       body {
         padding-top: 20px;
         padding-bottom: 40px;
+        font-family: "Ubuntu Mono", sans-serif;
       }
-      .container {
-        width: 960px;
-      }
+
       p.lead {
         padding-top: 15px;
       }
@@ -36,9 +40,22 @@
       div.row {
         border: 1px solid;
       }
+
+     /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+
     </style>
   </head>
   <body>
+
+
     <div class="container">
       <div class="row navigation">
         <div class="span2 logo">
@@ -94,9 +111,13 @@
       </div>
       <div class="row footer">
         <div class="span12">
-          Copyright (C) 1976 Etc.
+          Copyright (C) 1976 Etc. 
+  <i class="icon-fixed-width">&#xf181</i>
         </div>
       </div>
     </div>
+
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
   </body>
 </html>
